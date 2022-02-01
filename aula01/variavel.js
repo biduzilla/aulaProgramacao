@@ -12,3 +12,5 @@ const num3 = 3.5;
 const num4 = 2.2;
 
 console.log(num3 * num4);
+
+const test = "teste";
