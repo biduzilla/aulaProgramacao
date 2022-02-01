@@ -15,17 +15,15 @@
 }
 */
 
-const formas = 'quadrado';
-const alturas = 5;
-const comprimentos = 7;
-let areas;
+const forma = 'triangulo';
+const altura = 5;
+const comprimento = 7;
+let area;
 
 if (forma === 'quadrado') {
     area = altura * comprimento;
 } else {
     area = (altura * comprimento) / 2;
 }
-
-
 
 console.log(area);
