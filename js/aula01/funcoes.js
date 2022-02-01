@@ -8,10 +8,10 @@ function ImprimeText(texto) {
     console.log(texto);
 }
 
-function Soma() {
-    return resultado = 2 + 2;
+function Soma(num1, num2) {
+    return num2 + num1;
 }
 
 ImprimeText("oi");
-console.log(Soma());
-ImprimeText(Soma());
+console.log(`A soma dos números é ${Soma(3,1)}`);
+ImprimeText(Soma(1,2));
